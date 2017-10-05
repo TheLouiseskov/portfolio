@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: space-around;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+#navigation{
+	margin: 20 0 60px 0;
+	padding: 0 0 50px 150px;
+	border-bottom: medium black solid;
+	width: 97%;
+}
+
+#navigation li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-family: verdana, arial, sans-serif;
+	font-size: 1.5em;
+}
+
+#navigation a {
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	margin: 15px 100px 0 100px;
+}
+
+#navigation a:hover {
+	border-bottom: 2px solid #000;
+	padding-bottom: 1px; 
+	color: black;
+}
+
+#navigation a:visited {
+	color: black;
+}
+
+#navigation a:link {
+	color: black;
+}
+
+li {
+	display: inline;
+	padding: 0, 40px, 0, 40px;
+}
+
+footer {
+	text-align: center;
+	position:relative;
+	margin: 15px;
+	border-top: medium solid black;
+		float: left;
+	width: 98%;
+	top: 550px;
+}
+
+.nav-picture {
+	border-radius: 100px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 40px;
+	top: 10px;
+}
+
+.pic1 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 70px;
+	top: 150px;
+	border-radius: 1px;
+}
+
+.pic2 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 70px;
+	top: 425px;
+	border-radius: 1px;
+}
+
+.pic3 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 600px;
+	top: 150px;
+	border-radius: 1px;
+}
+
+.pic4 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 600px;
+	top: 425px;
+	border-radius: 1px;
+}
+
+.pic5 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 70px;
+	top: 150px;
+	border-radius: 1px;
+}
+
+.pic6 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 70px;
+	top: 425px;
+	border-radius: 1px;
+}

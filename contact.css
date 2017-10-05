@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: space-around;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+#navigation{
+	margin: 20 0 60px 0;
+	padding: 0 0 50px 150px;
+	border-bottom: medium black solid;
+	width: 97%;
+}
+
+#navigation li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-family: verdana, arial, sans-serif;
+	font-size: 1.5em;
+}
+
+#navigation a {
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	margin: 15px 100px 0 100px;
+}
+
+#navigation a:hover {
+	border-bottom: 2px solid #000;
+	padding-bottom: 1px; 
+	color: black;
+}
+
+#navigation a:visited {
+	color: black;
+}
+
+#navigation a:link {
+	color: black;
+}
+
+li {
+	display: inline;
+	padding: 0, 40px, 0, 40px;
+}
+
+footer {
+	text-align: center;
+	position:relative;
+	margin: 15px;
+	border-top: medium solid black;
+		float: left;
+	width: 98%;
+	top: 550px;
+}
+
+.nav-picture {
+	border-radius: 100px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 40px;
+	top: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.submit {
+	border-radius: 100px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 40px;
+	top: 160px;
+	width: 500px;
+	height: auto;
+}
+
+.map {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 50px;
+	top: 161px;
+}
+
+.facebook {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 10px;
+	top: 130px;
+}
+
+.instgram {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 70px;
+	top: 131px;
+}
+
+

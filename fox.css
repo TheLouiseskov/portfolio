@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: space-around;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+#navigation{
+	margin: 20 0 60px 0;
+	padding: 0 0 50px 150px;
+	border-bottom: medium black solid;
+	width: 97%;
+}
+
+#navigation li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-family: verdana, arial, sans-serif;
+	font-size: 1.5em;
+}
+
+#navigation a {
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	margin: 15px 100px 0 100px;
+}
+
+#navigation a:hover {
+	border-bottom: 2px solid #000;
+	padding-bottom: 1px; 
+	color: black;
+}
+
+#navigation a:visited {
+	color: black;
+}
+
+#navigation a:link {
+	color: black;
+}
+
+li {
+	display: inline;
+	padding: 0, 40px, 0, 40px;
+}
+
+.nav-picture {
+	border-radius: 100px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 40px;
+	top: 10px;
+}
+.pic5 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 40px;
+	top: 150px;
+	border-radius: 5px;
+}
+
+h5 {
+	font-family: verdana, arial, sans-serif;
+}
+
+p {
+	font-family: verdana, arial, sans-serif;
+}
+
+h1 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 525px;
+	top: 150px;
+	font-family: verdana, arial, sans-serif;
+}
+
+.h51 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 425px;
+	top: 200px;
+}
+
+.p1 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 314px;
+	top: 225px;
+}
+
+.h52 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 510px;
+	top: 270px;
+}
+
+.p2 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 55px;
+	top: 300px;
+}
+
+.h53 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 265px;
+	top: 370px;
+}
+
+.p3 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 165px;
+	top: 400px;
+}
+
+footer {
+	text-align: center;
+	position:relative;
+	margin: 15px;
+	border-top: medium solid black;
+		float: left;
+	width: 98%;
+	top: 550px;
+}
+
